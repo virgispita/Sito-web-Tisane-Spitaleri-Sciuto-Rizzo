@@ -23,7 +23,7 @@ header p {
 
 header p {
     text-decoration: none;
-    color: #000000; 
+    color: #000000;
 }
 
 header p:hover {
@@ -50,7 +50,7 @@ header nav ul {
 
 header a {
     text-decoration: none;
-    color: #000000; 
+    color: #000000;
 }
 
 header a:hover {
@@ -85,14 +85,13 @@ main {
 
 .green-square {
     background-color: #A7DB02;
-    width: 65%; 
+    width: 65%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
-    
 }
 
 .green-square p1 {
@@ -134,7 +133,7 @@ main {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin: 20px 30px; 
+    margin: 20px 30px;
     margin-bottom: 5rem;
 }
 
@@ -178,9 +177,7 @@ main {
 .immagine1{
     margin-left: 7%;
 }
-
-
-
+  
 .secondo{
     display: flex;
 }
@@ -195,10 +192,7 @@ main {
     margin-left: 13%;
     margin-top: 6%;
 }
-
-
-
-
+   
 .terzo{
     display: flex;
 
@@ -214,19 +208,7 @@ main {
     margin-left: 6%;
     margin-top: -4%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
 .quarto{
     display: flex;
 }
@@ -240,9 +222,7 @@ main {
     margin-left: 7%;
     margin-top: 6%;
 }
-
-
-
+  
 .quinto{
     display: flex;
 }
@@ -257,10 +237,7 @@ main {
     margin-left: 10%;
     margin-top: 18%;
 }
-
-
-
-
+   
 .sesto{
     display: flex;
 
@@ -276,18 +253,8 @@ main {
 .immagine6{
     margin-left: 6%;
     margin-top: 14%;
-    
 }
-
-
-
-
-
-
-
-
-
-
+         
 .settimo{
     display: flex;
 }
@@ -301,9 +268,7 @@ main {
     margin-left: 7%;
     margin-top: 2%;
 }
-
-
-
+  
 .ottavo{
     display: flex;
 }
@@ -318,10 +283,7 @@ main {
     margin-left: 9%;
     margin-top: 16%;
 }
-
-
-
-
+   
 .nono{
     display: flex;
 
@@ -338,10 +300,8 @@ main {
     margin-left: 6%;
     margin-top: 10%;
     margin-bottom: -5%;
-    
 }
-
-
+ 
 footer {
     max-width: 1900px;
     margin: 0 auto;
@@ -370,10 +330,7 @@ footer nav ul {
     gap: 70px;
     font-weight: bold;
 }
-
-
-
-
+   
 footer nav a {
     color: #000000;
 }
@@ -383,7 +340,6 @@ background: #a7db02 !important;
 width: 5px !important;
 height: 35px !important;
 }
-    
 
 
 
