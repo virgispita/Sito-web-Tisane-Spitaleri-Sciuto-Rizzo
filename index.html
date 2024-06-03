@@ -8,57 +8,69 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.4/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.4/dist/js/uikit-icons.min.js"></script>
 </head>
 <body>
-<header>
-    <p><a href="index.html">Teasense</p>
-    <nav>
-        <ul>
-            <li><a href="tisane.html">Tisane</a></li>
-            <li><a href="preparazione.html">Preparazione</a></li>
-            <li><a href="origini.html">Origini</a></li> 
-        </ul>
-    </nav>
+<header >
+  <nav>
+    <ul>
+    <li style="margin-top: 15px"><a class="uk-text-center" href="index.html" >Teasense</a></li>
+       </ul>
+  </nav>
+            <nav>
+                <ul>
+                    <li style="margin-top: 15px"><a href="tisane.html">Tisane</a></li>
+                    <li style="margin-top: 15px"><a href="preparazione.html">Preparazione</a></li>
+                    <li style="margin-top: 15px"><a href="origini.html">Origini</a></li>
+                </ul>
+            </nav>
+    </div>
 </header>
 <main>
-    <div class="image-container">
-        <img src="Immagini/Immagine 1.jpg" alt="Immagine 1" class="left-image">
-        <div class="green-square">
-            <h1>TeaSense</h1>
-            <p>Alla scoperta delle tisane</p>
+    <div class="image-container" >
+        <img  class="uk-align-center" src="Immagini/Immagine 1.jpg" alt="Immagine 1" class="left-image">
+        <div class="green-square" style="margin-bottom: 30px">
+            <h1 class="uk-align-center" style="margin-left:100px">TeaSense</h1>
+            <h4 class="uk-align-center" style="margin-top:-25px">Alla scoperta delle tisane</h4>
         </div>
     </div>
     <section class="homepage">
-         <div class="text">
-             <p>Immagina di tornare a casa dopo una lunga giornata.
-                Ti siedi comodamente sul divano, chiudi gli occhi e lasci che il calore di una tazza fumante tra le mani ti avvolga.
-                Il profumo delle erbe infuse si diffonde nell'aria, e ad ogni sorso senti il corpo e la mente che si rilassa.</p>
-             <p>Questa è la magia delle tisane! 
-                Antica tradizione che unisce il piacere dei sensi ai benefici per la salute.</p>
-             <p><strong>Questa guida informativa, esplorerà l'affascinante universo delle tisane: dalle origini storiche alle varietà più richieste, dai segreti della preparazione per analizzare infine le singole proprietà curative delle erbe.</strong></p>
-             <p>Ogni tisana, un momento di pausa e un'alleata per il benessere. Una straordinaria sinfonia di sapori, che unisce la saggezza del passato all'innovazione del presente. Infusi formulati con erbe officinali, adatti ad ogni tua esigenza.</p>
-             <p>Sai preparare una tisana? Si, No, Forse.
-                Niente preoccupazione Ti insegneremo come farlo</p>
-         </div>
-         <div class="image">
-             <img src="Immagini/Immagine 2.png" alt="">
-         </div>
+        <div class="uk-grid">
+            <div class="uk-width-1-2">
+                    <img class="uk-align-center" src="Immagini/Immagine 2.png" alt="">
+               </div>
+         <div class="uk-width-1-2">
+            <div class="">
+                <p>Immagina di tornare a casa dopo una lunga giornata.
+                   Ti siedi comodamente sul divano, chiudi gli occhi e lasci che il calore di una tazza fumante tra le mani ti avvolga.
+                   Il profumo delle erbe infuse si diffonde nell'aria, e ad ogni sorso senti il corpo e la mente che si rilassa.</p>
+                <p>Questa è la magia delle tisane!
+                   Antica tradizione che unisce il piacere dei sensi ai benefici per la salute.</p>
+                <p><strong>Questa guida informativa, esplorerà l'affascinante universo delle tisane: dalle origini storiche alle varietà più richieste, dai segreti della preparazione per analizzare infine le singole proprietà curative delle erbe.</strong></p>
+                <p>Ogni tisana, un momento di pausa e un'alleata per il benessere. Una straordinaria sinfonia di sapori, che unisce la saggezza del passato all'innovazione del presente. Infusi formulati con erbe officinali, adatti ad ogni tua esigenza.</p>
+                <p>Sai preparare una tisana? Si, No, Forse.
+                   Niente preoccupazione Ti insegneremo come farlo</p>
+            </div>
+            <div class="tipologie">
+                  <button class="uk-button uk-align-center" style="background: #A7DB02; border-radius: 24px;"><a href="tipologia di tisane.html" style="color: #fff">SCOPRI LE TIPOLOGIE DI TISANE</a>
+                  </button>
+        </div>
+        </div>
+        </div>
+    </div>
     </section>
-     <div class="tipologie">
-        <ul>
-            <li><a href="tipologia di tisane.html">SCOPRI LE TIPOLOGIE DI TISANE</a></li>
-        </ul>
-    </div>
-    </div>
 </main>
-<footer>
-    <p>Teasense@copyright.2024</p>
+<footer style="max-height: 25px">
+    <p style="margin-top: -1px">Teasense@copyright.2024</p>
     <nav>
-        <ul>
+        <ul style="margin-top: -1px">
             <li>www.tisane.it</li>
             <li>Italy</li>
         </ul>
     </nav>
-</footer>
-</body>
-</html>
+    </footer>
+    </body>
+    </html>
