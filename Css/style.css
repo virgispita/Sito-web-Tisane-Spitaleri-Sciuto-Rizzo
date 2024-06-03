@@ -74,6 +74,7 @@ main {
     display: flex;
     align-items: left;
     margin-bottom: 100px;
+    max-height: 500px !important;
 
 }
 
@@ -376,3 +377,44 @@ footer nav ul {
 footer nav a {
     color: #000000;
 }
+
+.uk-divider-vertical {
+background: #a7db02 !important;
+width: 5px !important;
+height: 35px !important;
+}
+ 
+  
+    
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
