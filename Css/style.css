@@ -496,29 +496,121 @@ footer nav a:hover {
     color: #708628;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 
     header {
-        max-width: 768px;
+        max-width: 600px;
         margin: 0;
         display: flex;
         justify-content: space-between;
-        font-size: 7px;
+        padding: 18px;
+        font-size: 10px;
     }
 
     header p {
-        margin: 20;
+        margin: 0;
         font-weight: bold;
-        margin-left: 75 ;
+        text-transform: uppercase;
     }
 
     header nav ul {
-        margin: 20;
-        margin-right: 50px;
+        margin: 0;
+        padding: 0;
         list-style: none;
         display: flex;
-        gap: 20px;
+        gap: 13px;
     }
+
+    .image-container {
+        display: flex;
+        align-items: left;
+        margin-bottom: 100px;
+    
+    }
+    
+    .image-container {
+        max-width: 400px;
+        height: auto;
+    }
+    
+    .green-square {
+        max-width: 400px;
+        background-color: #A7DB02;
+        width: 65%; 
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    
+    .green-square h1 {
+        max-width: 400px;
+        max-height: 100px;
+        color: #ffffff;
+        font-size: 40px;
+        margin-right: 170px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    
+    .green-square h2 {
+        max-width: 400px;
+        max-height: 100px;
+        color: #ffffff;
+        font-size: 40px;
+        margin-right: 170px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    
+    .green-square h3 {
+        max-width: 400px;
+        max-height: 100px;
+        color: #ffffff;
+        font-size: 40px;
+        margin-left: 40px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    
+    .green-square h5 {
+        max-width: 400px;
+        max-height: 100px;
+        color: #ffffff;
+        font-size: 40px;
+        margin-left: 15px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    
+    .green-square h6 {
+        max-width: 400px;
+        max-height: 100px;
+        color: #ffffff;
+        font-size: 40px;
+        margin-right: 185px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    
+    .green-square p {
+        max-width: 400px;
+        max-height: 100px;
+        font-weight: normal;
+        color: #000000;
+        margin-right: 135px;
+        font-size: 18px;
+    }
+    
+    .homepage {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+
 
     .homepage, .primo, .secondo, .terzo, .quarto, .quinto, .sesto {
         flex-direction: column;
@@ -550,58 +642,28 @@ footer nav a:hover {
     }
 
     footer {
-        max-width: 768px;
+        max-width: 600px;
         margin: 0;
         display: flex;
         justify-content: space-between;
-        font-size: 7px;
+        padding: 18px;
+        font-size: 10px;
     }
 
     footer p {
-        margin: 20;
+        margin: 0;
         font-weight: bold;
-        margin-left: 75 ;
+        text-transform: uppercase;
     }
 
     footer nav ul {
-        margin: 20;
-        margin-right: 50px;
+        margin: 0;
+        padding: 0;
         list-style: none;
         display: flex;
-        gap: 20px;
+        gap: 13px;
     }
 }
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
