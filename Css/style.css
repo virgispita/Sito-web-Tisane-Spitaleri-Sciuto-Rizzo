@@ -544,8 +544,7 @@ footer nav a:hover {
         grid-template-columns: 1fr;
     }
 
-    .fasi .text2, .epoche .text2, 
-    .fasi .text, .epoche .text {
+    .fasi .text2, .epoche .text2, .fasi .text, .epoche .text, .epoche .text3 {
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -572,41 +571,6 @@ footer nav a:hover {
         gap: 20px;
     }
 }
-
-    
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    
 
 
